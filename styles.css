@@ -1,0 +1,95 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero{
+    background-image: url("images/pexels-thais-cordeiro-3873663.jpg");
+    height: 600px;
+    padding: 10px 0 40px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-h1{
+    font-family: 'Tajawal', sans-serif;
+    color: #eeeae6;
+    font-size: 40px;
+    border: 1px solid #8b8784;
+    background: #8b8784;
+    padding: 5px 10px;
+    margin: 15px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    margin-top: 50px;
+}
+.hero-h2{
+    font-family: 'Tajawal', sans-serif;
+    color: #eeeae6;
+    font-size: 35px;
+    border: 1px solid #a5a58d;
+    background: #a5a58d;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;   
+}
+.activities{
+    margin-top: 0;
+    background-color: #eeeae6;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+.act-h3{
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #686763;
+}
+.act-img{
+    width: 350px;
+    height: 350px;
+    margin: 10px 20px;
+    border-radius: 50%;
+}
+.act-p{
+ color: #696663; 
+ font-size: 20px; 
+ margin: 5px; 
+}
+.guide{
+    width: 500px;
+    margin: 15px auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #83c5be;
+    border-bottom: 4px solid #264653;
+    border-radius: 10%;
+}
+#profile{
+    width: 200px;
+    border-radius: 10%;
+}
+.guide-right{
+    color: #264653;
+    font-size: 20px;
+}
